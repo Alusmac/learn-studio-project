@@ -1,0 +1,20 @@
+import { ErrorMessage } from "formik";
+import type { BaseFieldWrapperProps } from "@/shared/types/form.types";
+
+const BaseFieldWrapper = ({ name, label, children }: BaseFieldWrapperProps) => (
+  <div className="flex w-full flex-col gap-1 text-left">
+    {label && (
+      <label htmlFor={name} className="text-primary-dark text-sm font-medium">
+        {label}
+      </label>
+    )}
+    {children}
+    <ErrorMessage
+      name={name}
+      component="div"
+      className="text-primary-red mt-1 px-1 text-xs font-medium"
+    />
+  </div>
+);
+
+export default BaseFieldWrapper;

@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-light: #eef0ff;
+  --color-secondary-light: #b6c4ff;
+  --color-primary-dark: #020618;
+  --color-secondary-dark: #0f172b;
+  --color-primary-grey: #4a5565;
+  --color-primary-accent: #4f39f6;
+  --color-primary-green: #10b981;
+  --color-primary-red: #fb2c36;
+  --shadow-primary-soft: 0px 10px 13px 0px rgba(17, 38, 146, 0.1);
+}
+
+@layer base {
+  body {
+    @apply bg-primary-light text-primary-dark text-base antialiased md:text-lg;
+  }
+}
