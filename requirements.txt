@@ -87,7 +87,7 @@ py-ubjson==0.16.1
 pyasn1==0.6.3
 pyasn1_modules==0.4.2
 pycparser==2.23
-pycrypto==2.6.1
+pycryptodome
 pydantic==2.13.0
 pydantic_core==2.46.0
 Pygments==2.19.2
