@@ -14,7 +14,6 @@ blinker==1.9.0
 bs4==0.0.2
 build==1.4.0
 CacheControl==0.14.4
-cassandra-driver==3.29.3
 cbor2==5.9.0
 certifi==2026.1.4
 cffi==2.0.0
@@ -30,7 +29,7 @@ dill==0.4.0
 distlib==0.4.0
 distro==1.9.0
 dj-database-url==3.1.2
-Django==6.0.3
+Django
 django-cors-headers==4.9.0
 django-filter==25.2
 djangorestframework==3.17.1
