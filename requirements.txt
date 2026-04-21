@@ -5,6 +5,7 @@ whitenoise
 dj-database-url
 psycopg2-binary==2.9.11
 python-dotenv==1.2.2
+Pillow
 
 # API (REST Framework)
 djangorestframework==3.17.1
