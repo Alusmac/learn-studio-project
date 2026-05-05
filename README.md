@@ -1,44 +1,59 @@
-# Learn Studio
+Learning Management System (LMS) built with Django and Django REST Framework.
 
-This is a Django project for a Learning Management System (LMS)
-___
+---
 
-## Installation and Setup
+## 🚀 Features
 
-1. **Clone the repository**
+- User authentication and authorization
+- Course creation and management
+- Lesson structure
+- REST API for frontend integration
+- Database-backed content management
 
-```bash
-git clone git@github.com:ElizabethKorzhova/learn_studio.git
-cd learn_studio
-```
+---
 
-2. **Create and activate a virtual environment**
+## 🛠 Tech Stack
 
-```bash
-python -m venv venv
-source venv/bin/activate
-```
+- Python
+- Django
+- Django REST Framework
+- PostgreSQL / SQLite
+- Git & GitHub
 
-3. **Install dependencies**
+---
 
-```bash
-pip install -r requirements.txt
-```
+## 👨‍💻 My Contribution
 
-4. **Create a ```.env``` file**
+This is a team project developed collaboratively.
 
-```bash
-touch .env
-```
+My responsibilities included:
+- Developing backend logic using Django
+- Building REST API endpoints with Django REST Framework
+- Implementing authentication and user-related features
+- Working with database models and queries
 
-5. **Generate a ```SECRET_KEY``` and insert into the ```.env``` file**
+---
 
-```bash
-echo "SECRET_KEY=$(python -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())')" >> .env
-```
+## ⚙️ Installation and Setup
+1. Clone the repository
 
-6. **Start the development server**
-
-```bash
-python manage.py runserver
-```
+    ```bash
+    git clone https://github.com/Alusmac/learn-studio-project.git
+    cd learn_studio
+2. Create virtual environment
+     ```bash
+   python -m venv venv
+   source venv/bin/activate
+3. Install dependencies
+    ```bash
+   pip install -r requirements.txt
+4. Create .env file
+    ```bash
+   touch .env
+5. Generate SECRET_KEY
+    ```bash
+   echo "SECRET_KEY=$(python -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())')" >> .env
+6. Run server
+    ```bash
+   python manage.py runserver
+          
